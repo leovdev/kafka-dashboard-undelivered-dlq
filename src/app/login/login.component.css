@@ -1,0 +1,87 @@
+#green-rectangle{
+    position: absolute;
+    width: 595.42px;
+    height: 572.44px;
+    left: 50px;
+    top: 550.73px;
+
+    background: #008859;
+    transform: rotate(-4.31deg);
+    z-index: -1;
+}
+
+#red-rectangle{
+    position: absolute;
+    width: 740.42px;
+    height: 779.74px;
+    left: 10.09px;
+    top: 710.73px;
+    
+    background: #BA3242;
+    transform: rotate(-99.19deg);
+}
+#main-picture{
+position: absolute;
+width: 595.42px;
+height: 894px;
+left: 0px; 
+top: 0px;
+
+background: url(../../assets/login-main-image.png);
+z-index: -3;
+}
+
+
+#welcome-title {
+    position: absolute;
+    top: 600px;
+    left: 100px
+}
+
+#welcome-title > h1 {
+    font-size: 50px;
+    color: white;
+}
+
+#welcome-title > h2 {
+    font-size: 33px;
+    color: white;
+}
+
+#login-location-container {
+    position: absolute;
+    right: 14%;
+    top: 35%;
+    height: auto;
+}
+
+#button-login-container {
+    margin: 25% auto 0px auto;
+}
+
+#button-login-container > button{
+    background-color: #008859;
+    border: 0px;
+}
+
+#button-login-container > button > h3{
+    color: white;
+}
+
+#login-title{
+    text-align: center;
+}
+
+#login-trouble > h4{
+    text-align: center;
+    margin-top: 25%;
+    font-size: 20px;
+    color: #008859;
+    font-weight: bold;
+    
+}
+
+#login-title > h1{
+    color: #008859;
+    font-weight: bold;
+}

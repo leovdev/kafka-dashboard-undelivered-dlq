@@ -1,0 +1,62 @@
+#header-container{
+    height: 88px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 4px solid #008859;
+    display: flex;
+    flex-direction: row;
+}
+
+#logo-header-container {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2%;
+}
+
+#application-name-container{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+#application-name-container > h2{
+    color:#868484;
+    min-width: max-content;
+}
+
+#slogan-container {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+#slogan-container > h2 {
+    color: #333333;
+    min-width: max-content;
+}
+
+#world-icon{
+    margin-top: auto;
+    margin-bottom: auto;
+    color:white;
+}
+
+#language-dropdown-container{
+    background-color: #008859;
+    margin-left: auto;
+    display: flex;
+    width: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.language-select{
+    background-color: #008859;
+    border: 0px;
+    color: white;
+}
+
+
+@media only screen and (max-width: 700px){
+
+}
