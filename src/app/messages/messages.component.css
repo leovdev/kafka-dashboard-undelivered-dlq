@@ -52,10 +52,6 @@ button > h5{
     height: 55px;
 }
 
-#messages-container{
-    margin-top: 50px;
-    margin-left: 80px;
-}
 
 #filter-input{
     width: 884px;
@@ -125,4 +121,10 @@ label{
 
 #mat-calendar{
     color: #008859;
+}
+
+
+#messages-table-container{
+    margin-top: 50px;
+    margin-left: 80px;
 }
