@@ -8,11 +8,6 @@ button > h5{
     color: white;
 }
 
-input{
-    width: 180px;
-    height: 55px;
-}
-
 #form-container {
     display: flex;
     margin-left: 80px;
@@ -49,8 +44,23 @@ input{
     margin-right: 45px;
 }
 
-#partition{
-    margin-right: 45px;
+.numeric-input{
+    margin-right: 15px;
+    width: 120px;
+    height: 55px;
+}
+
+#datatable-container{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+#filter-input{
+    width: 884px;
+}
+input{
+    width: 180px;
+    height: 55px;
 }
 
 #end-date::-webkit-calendar-picker-indicator {
@@ -85,8 +95,9 @@ label{
 }
 #date-range-container{
     border: 1px solid gray;
-    margin-right: 45px;
+    margin-right: 15px;
     padding: 0px 15px;
+    min-width: 285px
 }
 
 .title-input-container{

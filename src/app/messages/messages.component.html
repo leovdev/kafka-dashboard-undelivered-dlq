@@ -29,7 +29,7 @@
                            value="2018-07-22" 
                            min="2018-01-01" max="2018-12-31" >
                     </div>
-                    <div id="offset-input-container">
+                    <div class="numeric-input-container">
                         <div class="title-input-container">
                             <div class="title-input">
                                 <p>
@@ -37,11 +37,10 @@
                                 <p>
                             </div>
                         </div>
-                        <input type="text" id="offset" name="name" required
-                        minlength="1" maxlength="8" size="10" placeholder="Enter offset"> 
+                        <input type="text" class="numeric-input" name="name" required
+                            minlength="1" maxlength="8" size="10" placeholder="Enter offset"> 
                     </div>
-
-                    <div id="partition-input-container">
+                    <div class="numeric-input-container">
                         <div class="title-input-container">
                             <div class="title-input">
                                 <p>
@@ -49,16 +48,53 @@
                                 <p>
                             </div>
                         </div>
-                     </div>
+                        <input type="text" class="numeric-input" name="name" required
+                            minlength="1" maxlength="8" size="10" placeholder="Enter partition">
                     </div>
-                    <input type="text" id="partition" name="name" required
-                    minlength="1" maxlength="8" size="10" placeholder="Enter partition">
-                    <button type="submit">
+                    <div class="numeric-input-container">
+                        <div class="title-input-container">
+                            <div class="title-input">
+                                <p>
+                                    Page*
+                                <p>
+                            </div>
+                        </div>
+                        <input type="text" class="numeric-input" name="name" required
+                            minlength="1" maxlength="8" size="10" placeholder="Enter page">
+                    </div>
+                    <div class="numeric-input-container">
+                        <div class="title-input-container">
+                            <div class="title-input">
+                                <p>
+                                    Quantity*
+                                <p>
+                            </div>
+                        </div>
+                        <input type="text" class="numeric-input" name="name" required
+                            minlength="1" maxlength="8" size="10" placeholder="Qty per page">
+                    </div>
+                </div>
+                     <button type="submit">
                         <h5>
                             SEARCH
                         </h5>
                     </button>
             </div>
         </form>
+    </div>
+
+    <div id="datatable-container">
+        <div id="datatable-filter-input-container">
+            <div class="title-input-container">
+                <div class="title-input">
+                    <p>
+                        Filter
+                    <p>
+                </div>
+            </div>
+            <input type="text" id="filter-input" name="name" required
+                minlength="1" maxlength="8" size="10" placeholder="Filter in datatable...">
+        </div>
+
     </div>
 </div>
