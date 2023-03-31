@@ -61,7 +61,7 @@ z-index: -3;
 
 #button-login-container > button{
     background-color: #008859;
-    border: 0px;
+    width: 300px
 }
 
 #button-login-container > button > h3{
@@ -85,3 +85,19 @@ z-index: -3;
     color: #008859;
     font-weight: bold;
 }
+
+#button-login-container > button > h3{
+    margin: revert;
+}
+#login-container{
+
+}
+#right-side-login-container{
+
+}
+
+#right-side-login-container {
+
+}
+
+html, body {margin: 0; height: 100vh; overflow: hidden}

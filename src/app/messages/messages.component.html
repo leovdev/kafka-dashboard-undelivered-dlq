@@ -1,0 +1,64 @@
+<div id="messages-container">
+    <div id="red-label">
+        <h1>
+            KAFKA MESSAGES UNDELIVERED
+        </h1>
+    </div>
+    <div id="form-container">
+        <form id="search-messages-form">
+            <div id="inner-form-container">
+                <div id ="inputs-form-container">
+                    <div id="date-range-container">
+                        <div class="title-input-container">
+                            <div class="title-input">
+                                <p>
+                                    Enter a date range*
+                                <p>
+                            </div>
+                        </div>
+                        <label>
+                            From
+                        </label>
+                        <input type="date" id="start-date" name="trip-start"
+                           value="2018-07-22"
+                           min="2018-01-01" max="2018-12-31">
+                        <label>
+                            To
+                        </label>
+                           <input type="date" id="end-date" name="trip-end"
+                           value="2018-07-22" 
+                           min="2018-01-01" max="2018-12-31" >
+                    </div>
+                    <div id="offset-input-container">
+                        <div class="title-input-container">
+                            <div class="title-input">
+                                <p>
+                                    Offset*
+                                <p>
+                            </div>
+                        </div>
+                        <input type="text" id="offset" name="name" required
+                        minlength="1" maxlength="8" size="10" placeholder="Enter offset"> 
+                    </div>
+
+                    <div id="partition-input-container">
+                        <div class="title-input-container">
+                            <div class="title-input">
+                                <p>
+                                    Partition*
+                                <p>
+                            </div>
+                        </div>
+                     </div>
+                    </div>
+                    <input type="text" id="partition" name="name" required
+                    minlength="1" maxlength="8" size="10" placeholder="Enter partition">
+                    <button type="submit">
+                        <h5>
+                            SEARCH
+                        </h5>
+                    </button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -7,12 +7,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgMaterialModule } from './ng-material.module';
 import { LoginComponent } from './login/login.component';
 import { HeaderComponent } from './header/header.component';
+import { MessagesComponent } from './messages/messages.component';
+import { SearchBoxComponent } from './search-box/search-box.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    HeaderComponent
+    HeaderComponent,
+    MessagesComponent,
+    SearchBoxComponent,
   ],
   imports: [
     BrowserModule,
