@@ -22,6 +22,7 @@
 #application-name-container > h2{
     color:#868484;
     min-width: max-content;
+    margin-bottom: 0px;
 }
 
 #slogan-container {
@@ -33,6 +34,7 @@
 #slogan-container > h2 {
     color: #333333;
     min-width: max-content;
+    margin-bottom: 0px;
 }
 
 #world-icon{
