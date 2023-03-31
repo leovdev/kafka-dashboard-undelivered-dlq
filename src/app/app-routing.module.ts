@@ -5,8 +5,8 @@ import { MessagesComponent } from './messages/messages.component';
 import { SearchBoxComponent } from './search-box/search-box.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: 'login', pathMatch: 'full'},
-  { path: 'login', component: LoginComponent},
+  {path: '', redirectTo: 'home', pathMatch: 'full'},
+  { path: 'login', redirectTo: 'home', pathMatch: 'full'},
   { path: 'home', component: MessagesComponent},
   { path: 'search', component: SearchBoxComponent}
 ];
